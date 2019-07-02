@@ -1,0 +1,1497 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+h2, p {
+  margin: 20px 0;
+  transition: 0.3s;
+}
+
+h3 {
+  margin: 10px 0;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr
+{
+   border: 3px solid #afd9d2;
+   }
+
+
+h2, h3, p, h4, a {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.textodos {
+  display: inline-block;
+}
+
+.hide-sm {
+  display: none !important;
+}
+
+
+/*----Fonts------*/
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #555;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #555;
+}
+
+h4 {
+ font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #C8B298;
+  font-weight: 500;
+  margin: 10px 0;
+  letter-spacing: 2px;
+}
+
+p, label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  color: #555;
+}
+
+label {
+  color: #B7B7B7;
+  font-weight: 500;
+  width: 100%;
+}
+
+label:focus {
+  color: #C8B298;
+}
+
+input:focus {
+  border-bottom: 1px solid #C8B298;
+}
+
+textarea:focus {
+  border-bottom: 1px solid #C8B298;
+}
+
+input, textarea {
+  display: block;
+  border-top: 0px;
+  border-left: 0px;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  max-width: 100%;
+  box-shadow: none;
+  border-style: none;
+  -webkit-appearance: textfield;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #ccc;
+  font-size: 16px;
+  padding-bottom: 10px;
+  margin-top: 8px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #C8B298;
+  transition: 1s;
+  border-bottom: 1px solid #B7B7B7;
+  outline: none;
+  margin-bottom: 30px;
+}
+
+textarea {
+  height: 40px;
+  padding-bottom: 5px;
+  max-height: 40px;
+}
+
+
+
+.hidden {
+  display: none;
+}
+
+.strong {
+  font-weight: 600;
+  text-align: center;
+}
+
+.aboutmes {
+  font-weight: 600;
+  text-align: center;
+  color:#afd9d2;
+}
+
+.strong a {
+  
+  font-weight: 500;
+}
+
+.logo {
+  width: 65px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.cls-1 {
+  fill: #C8B298;
+}
+
+.rec {
+  fill: #C8B298;
+  transition: 0.3s ease;
+}
+
+
+
+
+/*-----------------------------------------------------------MENU---------------------------------------------------------------------------------------------------------------*/
+.botonmenu {
+  cursor: pointer;
+  position: fixed;
+  right: 0;
+  padding-right: 0px;
+  z-index: 99;
+}
+
+#xIcon {
+  z-index: 5000;
+  display: block;
+  cursor: pointer;
+}
+
+#mainmenu {
+  background-color: #d5d5d5;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  margin: 0px;
+  display: none;
+  opacity: 0;
+}
+
+
+#navlist {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+#navlist a {
+      display: block;
+    width: 50%;
+}
+#navlist p {
+  margin: 0px;
+  font-size: 14px;
+}
+#navlist h2 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+#linknav {
+  margin-top: 0px !important;
+}
+
+
+#menuSm {
+  margin-top: 100px;
+}
+#menuSm a {
+  display: inline;
+  width: 100%;
+}
+
+
+.smIcon {
+  width: 20px;
+}
+
+.cls-1 {
+  fill: #555;
+  transition: 0.3s ease;
+}
+
+.cls-2 {
+  fill: #555;
+  transition: 0.3s ease;
+}
+
+#menuSm a:hover .cls-1 {
+  fill: #C8B298;
+}
+
+.smIcon {
+  margin-right: 30px;
+}
+
+.lastChild {
+  margin-right: 0px;
+}
+
+#xIcon {
+  width: 25px;
+  float: right;
+  padding: 20px 20px 0 0;
+}
+
+#menuX {
+  fill: #C8B298;
+}
+
+#menu {
+  height: 50px;
+  width: 50px;
+  top: 0;
+  right: 0;
+  padding: 30px 0 0 30px;
+  z-index: 100;
+}
+
+#menuicon {
+  width: 40px;
+  float: right;
+  padding: 0 20px 0 0;
+}
+
+#xButt {
+  height: 65px;
+  width: 65px;
+  float: right;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.workMenu {
+  padding-top: 15px;
+}
+
+
+
+#introduccion {
+  text-align: center;
+  margin-top: 30px;
+  padding: 0 20px;
+}
+#next
+{
+  display: block;
+    margin: auto;
+}
+#introduccion #logointro
+{
+  width:50%;
+   height:40%; 
+}
+
+
+#introduccion #rocket
+{
+  width:30%;
+   height:30%; 
+   padding-bottom: 60px;
+}
+
+#astro
+{
+  width:20%;
+   height:30%; 
+   
+}
+
+#introduccion p {
+  line-height: 20px;
+}
+#introduccion h3 {
+  font-weight: 600;
+}
+
+#iconsfooter a {
+  margin-right: 48px;
+  margin-bottom: 40px;
+  color:white;
+
+}
+
+
+#abouticon a {
+  margin-right: 48px;
+  margin-bottom: 40px;
+  padding-bottom: 60px;
+
+}
+
+
+#abouticon a:last-child {
+  margin-right: 0px;
+}
+
+
+.abouticon {
+  width: 20px;
+  fill: #afd9d2;
+}
+
+
+.smIconFoot {
+  width: 20px;
+  fill: #ffffff;
+}
+
+
+.footicon {
+  fill: #fff;
+  transition: 0.3s ease;
+}
+
+#iconsfooter a:last-child {
+  margin-right: 0px;
+}
+
+#scrolldown {
+  width: 30px;
+  margin-top: 30px;
+    display: block;
+    margin: auto;
+}
+
+
+#about {
+  padding: 50px 20px;
+  text-align: left;
+  margin: auto auto;
+  
+}
+
+#aboutme
+{
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+  padding: 30px 30px 30px 41px;
+}
+
+
+
+.workindex {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+    clear: both;
+    height: 600px;
+    padding-bottom: 60px;
+    margin-bottom: 80px;
+}
+
+
+
+
+
+.arrows {
+  position: absolute;
+  display: none;
+}
+
+.space {
+  padding: 20px;
+  margin: 30px 0;
+  text-align: center;
+}
+
+#mainfooter {
+  text-align: center;
+  width: 100%;
+  background-color: #afd9d2;
+}
+#mainfooter p {
+  margin: 0;
+  padding: 20px 0;
+  color: #fff;
+}
+
+#logofooter {
+ 
+  display: block;
+  margin: 0 auto;
+  padding: 30px 0px;
+}
+
+/*-------------------------------------------------------------------------WORK--------------------------------------------------------------------------------------------------*/
+#introwork {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+#aboutwork {
+  width: 85%;
+  margin: 0 auto;
+}
+
+#projectInfo {
+  text-align: center;
+  margin-top: 30px;
+}
+#projectInfo h2 {
+  margin: 20px 0 0 0;
+}
+
+.titlenext {
+  color: #B7B7B7;
+  font-weight: 500;
+  margin: 0px;
+  text-align: center;
+}
+
+
+#workarrow {
+  width: 85%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+#workarrow img {
+  width:60px;
+}
+
+
+#projectImages {
+  margin-top: 50px;
+}
+
+.projectImg {
+  width: 100%;
+}
+
+/*-------------------------------------------------------------------------------ABOUT-----------------------------------------------------------------------------------------*/
+#aboutlandingCon {
+  padding: 20px 20px 0 0;
+}
+
+#aboutlintropage {
+  padding: 20px 0 0 0;
+}
+
+#introabout {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+#aboutLogo {
+  width: 50px;
+}
+
+#introabouttext h2 {
+  margin-top: 50px;
+}
+
+#plant
+{
+  width: 70%;
+}
+/*-----------------------------VIDEO--------------------------------------------------------------------------------------------------------------------------------------*/
+video {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  line-height: 0;
+}
+
+#videoabout {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  margin-bottom: 50px;
+  background-color: #000;
+}
+video::-webkit-media-controls-overlay-play-button {
+  display: none;
+}
+
+button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+input:focus, textarea:focus, button:focus {
+  outline: none;
+}
+
+#pauseButt {
+  margin: 10px 0 0 0;
+}
+
+/*-------------------------------------------------------------------------------------RESPONSIVE-----------------------------------------------------------------------------*/
+@media screen and (min-width: 375px) {
+  
+  #introduccion {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .logo {
+    padding-bottom: 50px;
+  }
+
+  #scrolldown {
+    margin-top: 40px;
+  }
+
+  #navlist {
+    position: absolute;
+    top: 175px;
+    bottom: 0px;
+    height: 600px;
+    width: 100%;
+    padding-top: 0px;
+    margin: auto 0px;
+  }
+  #navlist p {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  #navlist h2 {
+    margin-top: 30px;
+    font-size: 25px;
+  }
+
+  #linknav {
+    padding-top: 20px;
+  }
+
+
+  #xIcon {
+    padding: 20px;
+  }
+
+  #menuSm {
+    margin-top: 40px;
+  }
+
+
+  .smIcon {
+    margin-right: 40px;
+  }
+
+  #astro {
+    width: 62%;
+    height: 30%;
+}
+
+
+    .workindex #workone
+ {
+   
+ 
+     float: left;
+     max-width: 100%;
+
+ }
+ .workindex .workimage {
+    
+    float: left;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+ .workindex #worktwo {
+    
+   
+    float: right;
+
+    max-width: 100%;
+
+}
+
+.workindex .titleworks
+{
+    max-width: 50%;
+    margin: auto;
+    display: block;
+    padding-top: 50px;
+}
+
+.viewwork {
+  width: 100%;
+  background-color: #afd9d2;
+  text-align: center;
+  height: 60px;
+}
+.viewworks h3 {
+  margin: 0px;
+  color: #fff;
+  padding-top: 10px;
+}
+
+
+#aboutLogo {
+    width: 100px;
+    padding-top: 20px;
+}
+
+#introwork {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.titleprojects
+{
+  
+    width: 40%;
+
+}
+
+.workimage
+{
+  max-width: 100%;
+    max-height: 100%;
+}
+
+#aboutlogo{
+   width: 40%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+}
+
+
+@media screen and (min-width: 414px) {
+ 
+
+  #scrolldown {
+    margin-top: 40px;
+  }
+
+  .logo {
+    padding-bottom: 60px;
+  }
+
+  #navlist {
+   position: absolute;
+    top: 175px;
+    bottom: 0px;
+    height: 600px;
+    width: 100%;
+    padding-top: 0px;
+    margin: auto 0px;
+  }
+  #navlist h2 {
+    margin-top: 30px;
+  }
+  #navlist p {
+    font-size: 16px;
+    line-height: 35px;
+  }
+
+  #menuSm {
+    text-align: left;
+  }
+
+  .smIcon {
+    margin-right: 40px;
+  }
+
+  #linknav {
+    margin-top: 0px;
+  }
+
+ }
+@media screen and (min-width: 550px) {
+  
+}
+@media screen and (min-width: 768px) {
+ 
+  .hide-md-up {
+    display: none !important;
+  }
+
+  .hide-sm {
+    display: block !important;
+  }
+
+  .workindex {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+    clear: both;
+    height: 1100px;
+    padding-bottom: 60px;
+    margin-bottom: 80px;
+}
+
+
+.viewwork {
+    width: 130px;
+    color: #555;
+    background-color: #afd9d2;
+    margin: 0 auto;
+    transition: 0.3s ease;
+}
+
+
+
+  h2 {
+    font-family: 'Roboto', serif;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 300;
+  }
+
+  h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 4px;
+  }
+
+  p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+  }
+
+  .uno {
+    float: left;
+    width: 45%;
+    margin-top: 40px;
+    margin-bottom: 100px;
+  }
+
+  #dos {
+    width: 45%;
+    margin-top: 40px;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 100px;
+  }
+
+  #mainmenu {
+    width: 100%;
+    right: 0;
+  }
+
+  .botonmenu {
+    padding: 0 50px 0 0;
+  }
+
+  #navlist {
+    height: 800px;
+  }
+  #navlist h2 {
+    font-size: 30px;
+    margin-top: 80px;
+  }
+  #navlist h2:hover, #navlist p:hover {
+    color: #fff;
+  }
+
+  #linknav {
+    margin-top: 30px !important;
+  }
+
+  #headerm {
+    padding: 40px;
+    align-items: center;
+  }
+
+  #indexlogo {
+    display: inline;
+  }
+
+  #menuSm {
+    margin-top: 80px;
+  }
+  #menuSm a {
+    margin-right: 20px;
+  }
+
+ 
+
+  #Medlogo {
+    width: 60px;
+    display: inline-block;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin-top: 20px;
+  }
+
+  #menuiconm {
+    width: 40px;
+    float: right;
+    z-index: 100;
+    transition: 0.3s ease;
+  }
+
+  #menuiconm:hover .rec {
+    fill: #B7B7B7;
+  }
+
+  .smIcon {
+    width: 20px;
+    margin-right: 25px;
+  }
+
+  .cls-1 {
+    fill: #B7B7B7;
+    transition: 0.3s ease;
+  }
+
+  .smIcon:hover .cls-2 {
+    fill: #C8B298;
+  }
+
+
+
+
+  #introduccion {
+    margin-top: 60px;
+    padding: 0 100px;
+  }
+  #introduccion p {
+    font-size: 16px;
+  }
+
+  #scrolldown {
+    margin-top: 30px;
+  }
+
+  #intropage {
+    height: 100vh;
+    
+  }
+
+  
+
+  #aboutlandingCon {
+    padding: 0px;
+  }
+
+  #introaboutpage {
+    padding: 0px;
+  }
+
+  #about {
+    width: 90%;
+    padding-top: 0px;
+    padding-bottom: 100px;
+  }
+
+  #introabouttext {
+    width: 100%;
+  }
+  #introabouttext .uno {
+    width: 100%;
+  }
+
+  
+
+  #uno {
+    margin-top: 50px;
+  }
+
+  .workInfo {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 200px;
+  }
+
+  .workInfo h2 {
+    position: relative;
+  }
+
+  #introwork {
+    padding-bottom: 0px;
+  }
+
+  .viewwork {
+    width: 130px;
+    color: #555;
+    background-color: #afd9d2;
+    margin: 0 auto;
+    transition: 0.3s ease;
+  }
+  .viewwork h3 {
+    color: #555;
+    transition: 0.3s;
+  }
+
+  .viewwork:hover {
+    background-color: #000;
+  }
+  .viewwork:hover h3 {
+    color: #fff;
+  }
+
+  .workindex #worktwo {
+    float: right;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .arrows {
+    position: absolute;
+    width: 100%;
+    margin-top: 10%;
+    display: block;
+  }
+
+
+  #videoabout {
+  margin-bottom: 100px;
+  background-color: rgba(0,0,0,0);
+  }
+
+  /*-----------------------------------------------------------------------WORK------------------------------------------------------------------------------------------*/
+  .projDetails {
+    float: left;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #workarrow h2 {
+    font-size: 25px;
+    margin: 0px;
+  }
+
+  #nextProj h2:hover {
+    color: #C8B298;
+  }
+
+  #prevProj h2:hover {
+    color: #C8B298;
+  }
+
+  
+  #imgCon {
+    float: left;
+    position: absolute;
+    width: 450px;
+    bottom: 0;
+    margin-bottom: 0px;
+  }
+
+
+
+  #processCon {
+    padding-top: 100px;
+  }
+
+  #astro
+  {
+    width: 20%;
+    height: 30%;
+  }
+}
+@media screen and (min-width: 900px) {
+
+
+  #mainmenu {
+    width: 100%;
+    opacity: 0;
+  }
+
+  .indexHead {
+    padding: 40px !important;
+  }
+
+  #navlist {
+    
+    margin: 60px 0px;
+  }
+
+  #linknav {
+    margin-top: 0px !important;
+  }
+
+  #xIcon {
+    padding: 30px;
+  }
+
+  #navlist h2 {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  #menuSm {
+    margin-top: 30px;
+  }
+
+  #menuSm a {
+    margin-right: 0px;
+  }
+
+   #aboutlandingCon {
+    height: 800px;
+    padding: 0px;
+    margin: 0 auto;
+    
+
+
+  }
+
+  #intropage {
+    height: 642px;
+    
+  }
+#astro {
+    width: 20%;
+    height: 30%;
+}
+
+ #intropagework {
+    height: 100px;
+    
+  }
+  #introduccion {
+     margin-top: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    padding: 0 0 0 50px;
+    text-align: center;
+  }
+
+  #scrolldown {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+
+
+  #introabout {
+    position: absolute;
+    width: 30%;
+    height: 290px;
+    max-width: 500px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 0 0 0 100px;
+  }
+
+  #introabouttext h2 {
+    margin-top: 0px;
+  }
+
+  #introabouttext .uno {
+    margin-bottom: 0px;
+  }
+
+  #imageintro
+  {
+    display: inline;
+    
+    float: right;
+    width: 50%;
+    height: 300px;
+    margin:auto;
+    padding: 0 0 0 100px;
+    top:100px;
+  }
+
+  #about {
+    width: 60%;
+    padding: 70px 0;
+  }
+
+  .uno {
+    margin-bottom: 150px;
+  }
+
+  #dos {
+    margin-bottom: 28px;
+  }
+
+  .workInfo {
+    width: 100%;
+    float: right;
+    margin: 0 auto;
+    display: inline;
+    height: 100%;
+  }
+  .workInfo h2, .workInfo p {
+    color: #fff;
+    text-align: center;
+  }
+  .workInfo .workType {
+    color: #fff;
+    text-align: center;
+  }
+  .workInfo h2 {
+    margin-top: 0;
+  }
+  .workInfo p {
+    margin-bottom: 150px;
+  }
+
+  .arrows {
+    margin-top: 5%;
+  }
+
+  .space {
+    width: 55%;
+    max-width: 750px;
+    padding: 150px 0;
+  }
+
+  .smIcon {
+    width: 20px;
+    margin-right: 45px;
+  }
+
+   #videoabout {
+  margin-bottom: 100px;
+  background-color: #cbcbcb;
+  }
+
+   .viewwork {
+    width: 130px;
+    color: #555;
+    background-color: #afd9d2;
+    margin: 0 auto;
+    transition: 0.3s ease;
+  }
+  .viewwork h3 {
+    color: #555;
+    transition: 0.3s;
+  }
+
+  .viewwork:hover {
+    background-color: #000;
+  }
+  .viewwork:hover h3 {
+    color: #fff;
+  }
+
+  .workindex #worktwo {
+    float: right;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  
+  #aboutwork {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+
+  #educationCon #imgCon {
+    position: absolute;
+    top: 0;
+    height: 500px;
+    bottom: 0;
+    margin: auto;
+  }
+
+  #educationItems {
+    padding: 100px 20px;
+  }
+  #educationItems .educationTitle, #educationItems img {
+    padding-left: 200px;
+  }
+
+  .degree {
+    padding-left: 200px;
+  }
+
+  #projectInfo {
+    text-align: left;
+    float: left;
+    margin: 0px;
+    width: 30%;
+  }
+
+  #workdescription {
+    width: 70%;
+    float: right;
+  }
+
+  .titleprojects{
+        width: 25%;
+  }
+
+  .wrapper {
+    margin-bottom: 30px;
+  }
+
+  #linknav {
+    padding-top: 0px;
+  }
+
+    .workindex {
+        position: relative;
+    display: block;
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+    clear: both;
+    height: 1485px;
+    padding-bottom: 60px;
+    margin-bottom: 80px;
+}
+
+.workindex #worktwo {
+    float: right;
+    width: 100%;
+    max-width: 100%;
+  }
+
+.workindex .workimage {
+    
+    float: left;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.workimage {
+  display: block;
+}
+
+
+}
+@media screen and (min-width: 1200px) {
+
+  .titleprojects {
+    width: 25%;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    .workindex {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+    clear: both;
+    height: 1100px;
+    padding-bottom: 60px;
+    margin-bottom: 80px;
+}
+
+.workindex #worktwo {
+    float: right;
+    width: 100%;
+    max-width: 100%;
+  }
+
+.workindex .workimage {
+    
+    float: left;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.workimage {
+  display: block;
+}
+
+
+}
+@media screen and (min-width: 1366px) {
+
+  .titleprojects {
+    width: 25%;
+}
+
+  
+  #intropage {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+
+  .space {
+    text-align: center;
+    padding: 150px 0;
+    margin: 0 auto;
+  }
+
+  #aboutwork {
+    width: 70%;
+  }
+
+  #educationCon {
+    width: 1150px;
+  }
+
+  #schoolImg {
+    width: 120%;
+    margin-top: 0px;
+  }
+}
+@media screen and (min-width: 1400px) {
+
+  .titleprojects {
+    width: 25%;
+}
+
+  .space {
+    width: 70%;
+    text-align: center;
+    padding: 150px 0;
+    margin: 0 auto;
+  }
+
+  #navlist {
+   margin-top: 100px;
+  margin-left: 350px;
+  }
+
+  #menuSm {
+    margin-top: 50px;
+  }
+
+  #navlist h2 {
+    font-size: 30px;
+    margin-top: 45px;
+  }
+.workindex {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    clear: both;
+    height: 720px;
+    padding-bottom: 60px;
+    margin-bottom: 80px;
+}
+
+  .workindex #workone
+ {
+   
+   
+    float: left;
+    max-width: 50%;
+
+ }
+
+
+ .workindex #worktwo 
+  {
+    float: right;
+    max-width: 50%;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+    height: 100%;
+  }
+
+
+.workindex .workimage {
+    
+    float: left;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.workimage {
+  display: block;
+}
+
+
+
+.workindex #titlework
+{
+    max-width: 52%;
+    margin: auto;
+    display: block;
+    padding-top: 200px;
+}
+
+.viewwork {
+     width: 130px;
+    color: #fff;
+    background-color: #afd9d2;
+    margin: 0 auto;
+    transition: 0.3s ease;
+    height: 52px;
+    margin-top: 50px;
+}
+}
+.viewwork h3 {
+     margin: 0 !important;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+}
+@media screen and (min-width: 1500px) {
+  #about {
+    width: 50%;
+  }
+
+  #introabout {
+    height: 450px;
+  }
+  .workindex #worktwo 
+  {
+    float: right;
+    max-width: 50%;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+    height: 105%;
+  }
+}
+@media screen and (min-width: 1750px) {
+  .botonmenu {
+    margin-right: 5%;
+  }
+  .workindex #worktwo 
+  {
+    float: right;
+    max-width: 50%;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+    height: 105%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
