@@ -25,7 +25,7 @@
 			TweenMax.to(nav, 1, {display:'block',opacity: 1});
 
 			for(i = 0; i<menuImage.length; i++){
-				menuImage[i].src = "img/ex.svg";
+				menuImage[i].src = "img/SVG/closewhite.svg";
 				menuImage[i].style.height = "30px";
 			}
 
@@ -33,7 +33,7 @@
 			TweenMax.to(nav, 0.5, {display:'none',opacity: 0});	
 
 			for(i = 0; i < menuImage.length; i++){
-				menuImage[i].src = "img/menu.svg";
+				menuImage[i].src = "img/SVG/menu.svg";
 			}
 		}
 
@@ -42,7 +42,7 @@
 	function closeMenu(){
 		TweenMax.to(nav, 0.5, {opacity: 0, display:'none'});
 		for(i = 0; i < menuImage.length; i++){
-				menuImage[i].src = "img/menu.svg";
+				menuImage[i].src = "img/SVG/menu.svg";
 			}
 	}
 
